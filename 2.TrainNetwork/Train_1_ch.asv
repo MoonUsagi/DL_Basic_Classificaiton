@@ -22,14 +22,6 @@ CountLabel = digitData.countEachLabel
 %% 切割訓練與測試資料(Split Train & Test Data)
 trainingNumFiles = 750;
 [trainDigitData,testDigitData] = splitEachLabel(digitData, ...
-    trainingNumFiles, 'randomize');
-
-%% 定義網路架構(Define Network Architecture)
-% 這邊請用Deepnetwork design拉出一個與下方一樣的模型
-% layers = [
-%     imageInputLayer([28 28 1])
-%     convolution2dLayer(5, 20)
-%     reluLayer
 %     maxPooling2dLayer(2, 'Stride', 2)
 %     fullyConnectedLayer(10)
 %     softmaxLayer
