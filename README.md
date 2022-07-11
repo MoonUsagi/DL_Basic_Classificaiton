@@ -1,4 +1,4 @@
-# RabbitDetect 
+# Deep Learning Classification
 Bulit on 2022/02 by Fred Liu  
 Major update 2022/5/20  
 [Youtube Link]()  
