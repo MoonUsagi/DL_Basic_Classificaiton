@@ -2,7 +2,7 @@ function Iout= preprocessImg(filename)
 
 I= imread(filename);
 
-Iout = imresize(I, [227,227]);
+Iout = imresize(I, [224,224]);
 
 end
 

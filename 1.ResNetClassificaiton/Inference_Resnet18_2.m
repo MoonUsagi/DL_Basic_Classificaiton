@@ -1,9 +1,9 @@
 clear all,close all,clc
 %% ImageDatastore
-net = alexnet;
+net = resnet18;
 net.Layers
-
-%% Show what AlexNet does with random images without being retrained
+ 
+%% Show what ResNet18 does with random images without being retrained
 samples = imageDatastore('SampleImages',...
     'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 
@@ -16,8 +16,8 @@ countEachLabel(samplespart)
  
 %% Change ReadFunction in imageDatastore 
 % Resize image before reading it
-samplespart.ReadFcn = @preprocessImg;
-img = readimage(samplespart,5);
+samples.ReadFcn = @preprocessImg;
+img = readimage(samples,5);
 %whos img
 
 % Make prediction

@@ -1,8 +1,8 @@
 %% DL_cam
-% Fred liu 2022.5.19
+% Fred liu 2022.5.19 % update 2023.05.17
 % cemera stream image deeplearning classification
 %%
-net = resnet50;
+net = resnet18;
 cam  = webcam;
 
 while(1)

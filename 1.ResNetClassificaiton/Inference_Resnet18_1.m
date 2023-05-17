@@ -1,17 +1,17 @@
 %% DL_5Lcode
 % Fred liu 2022.5.19
 
-%% Use alexnet to do inference
+%% Use ResNet18 to do inference
 % Load Pre-trained CNN
-net = alexnet;
-% Show the architecture of AlexNet
+net = resnet18;
+% Show the architecture of ResNet18
 net.Layers
-%% Classify 'peppers' in 4 lines of code
+%% Classify 
 % Import a testing image.
 img = imread('2r.jpg');
 
-% There is a size requirement of 227 x 227 for AlexNet. 
-img = imresize(img, [227 227]);
+% There is a size requirement of 224 x 224 for ResNet18. 
+img = imresize(img, [224 224]);
 
 % Recognize the testing image
 [Ypred, scores] = classify(net, img);
