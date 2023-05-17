@@ -1,7 +1,8 @@
 # Deep Learning Classification
 Bulit on 2022/02 by Fred Liu  
-Major update 2022/5/2, update 2023.05.17 
-[Youtube Link](https://youtube.com/playlist?list=PLkig3EWeC3SiuZNF7vUzfGTuu97k-Z_lm)  
+Major update 2022/5/2, update 2023.05.17  
+
+[Youtube Link](https://youtube.com/playlist?list=PLkig3EWeC3SiuZNF7vUzfGTuu97k-Z_lm) 
   
 版本:MATALB: 2022a ~ 最新版本  
 需要工具箱: Deeplearning , Image Processing, Computer Vision, Parallel Computing  
