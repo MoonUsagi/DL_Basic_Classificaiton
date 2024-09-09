@@ -1,4 +1,4 @@
-%% 創建小型深度學習網路進行手寫數字分類
+%% 創建小型深度學習網路進行手寫數字分類 
 % (Create a small deep learning network for handwritten digit classification)
 % Fred liu 
 % 2024.05.22 for 24a update
